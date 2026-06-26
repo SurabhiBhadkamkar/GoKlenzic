@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+GoKlenzic
 
-# Run and deploy your AI Studio app
+A modern and responsive website for **Go Klenzic**, showcasing premium cleaning products with a clean UI, smooth animations, and a seamless user experience.
 
-This contains everything you need to run your app locally.
+ Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/819bde4b-ba16-48ad-a0a5-024a801056ff
+- Vite
+- HTML5
+- CSS3
+- JavaScript
 
-## Run Locally
+ Features
 
-**Prerequisites:**  Node.js
+- Responsive design
+- Smooth animations
+- Product showcase
+- Modern UI
+- Fast performance
 
+Run Locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
+
+Author
+
+Surabhi Bhadkamkar
