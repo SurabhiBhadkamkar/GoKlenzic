@@ -1,0 +1,6 @@
+{
+  "name": "GoKlenzic",
+  "description": "Premium, eco-friendly detergent storefront and subscription service with sleek, geometric layouts, royal blue & gold palette, and high-quality sustainable products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

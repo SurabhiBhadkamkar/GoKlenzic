@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-brand-blue: #118CAF;
+  --color-brand-blue-hover: #0B718F;
+  --color-brand-blue-dark: #06485C;
+  --color-brand-blue-light: #ECF8FC;
+  --color-brand-gold: #64C25B;
+  --color-brand-gold-hover: #4EA845;
+  --color-brand-gold-dark: #3A8231;
+  --color-brand-gold-light: #F2FDF1;
+}
+
+@layer utilities {
+  /* Custom Grid Pattern Background */
+  .bg-grid-pattern {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgba(17, 140, 175, 0.08) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(17, 140, 175, 0.08) 1px, transparent 1px);
+  }
+
+  .bg-grid-pattern-white {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  }
+}
