@@ -1,5 +1,5 @@
 GoKlenzic
-# 📸 Screenshots
+
 
 ## Home Page
 
